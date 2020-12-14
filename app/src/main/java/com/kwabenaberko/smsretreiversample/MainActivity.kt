@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         otpTextView = findViewById(R.id.otp_text_view)
         smsRetrieverClient = SmsRetriever.getClient(this)
 
-        //Uncommment the 2 line below to generate a hash for your app.
+        //Uncommment the 2 lines below to generate a hash for your app.
 //        val signatureHelper = AppSignatureHelper(this);
 //        Log.e("SIGNATURE", signatureHelper.appSignatures.toString())
 
